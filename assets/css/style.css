@@ -12,8 +12,16 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+h2.page-title, h3.sidebar-title {
+    color: #4aaaa5;
+}
+
 h2.page-title {
-	color: #4aaaa5;
+    font-size: xx-large;
+}
+
+h3.sidebar-title {
+    font-size: x-large;
 }
 
 p.copyright {
@@ -103,14 +111,18 @@ span.name-text {
     div.main-content {
         background-color: #fff;
         height: 500px;
-        width: 100%;
+        width: 94%;
         margin-bottom: 35px;
+        margin-right: 3%;
+        margin-left: 3%;
     }
 
     div.sidebar {
         background-color: #fff;
-        height: 500px;
-        width: 100%;
+        height: 120px;
+        width: 94%;
+        margin-right: 3%;
+        margin-left: 3%;
         text-align: center;
     } 
 
@@ -127,7 +139,7 @@ span.name-text {
     }
     
     div.main-content {
-        margin-left: 35px;
+        margin-left: 5%;
         background-color: #fff;
         height: 500px;
         width: 60%;
@@ -135,10 +147,10 @@ span.name-text {
     }
 
     div.sidebar {
-        margin-right: 35px;
+        margin-right: 5%;
         background-color: #fff;
-        height: 500px;
-        width: 30%;
+        height: 120px;
+        width: 22%;
         float: right;
         text-align: center;
     }

@@ -5,8 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
+
+    <link rel="stylesheet" href="assets/css/reset.css"></style>
+    <link rel="stylesheet" href="assets/css/style.css"></style>
 </head>
 <body>
-    
+    <nav class="topnav">
+        <div class="name-header">
+            <span class="name-text">Wynn Blevins</span>
+        </div>
+        <span class="nav-menu">
+            <a href="index.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </span>
+    </nav>
+    <div class="full-content">
+        <div class="main-content">
+            <h2 class="page-title">Contact</h2>
+            <div class="thick-line"></div>
+
+            <form id="contact-form">
+                <label for="nameField">Name</label> 
+                <input id="nameField" name="nameField"  
+                    placeholder="John Smith" type="text">
+                <label for="emailField">Email</label> 
+                <input id="emailField" name="emailField" placeholder="example@gmail.com" 
+                    type="text" class="form-control">
+                <label for="messageTextArea">Message</label> 
+                <textarea id="messageTextArea" name="messageTextArea"  
+                    cols="40" rows="10"></textarea> 
+                <button name="submit" type="submit">Submit</button>
+            </form>
+        </div>
+
+        <!--Social Media Sidebar-->
+        <div class="sidebar">
+            <h3 class="sidebarTitle">Connect With Me</h3>
+            <div class="fullWidthLine"></div>
+            <ul>
+                <li class="sidebarItem">
+                    <a href="https://github.com/wynnblevins/">
+                        <img src="./assets/images/github_logo_small.png" 
+                            alt="Github Logo">
+                    </a>
+                </li>
+                <li class="sidebarItem">
+                    <a href="https://www.linkedin.com/in/wynn-blevins-93924594/">
+                        <img src="./assets/images/linkedin_logo_small.png" 
+                            alt="Linkedin Logo">
+                    </a>
+                </li>
+                <li class="sidebarItem">
+                    <a href="https://stackoverflow.com/users/1226768/wynn">
+                        <img src="./assets/images/stackoverflow_logo_small.png" 
+                            alt="Stackoverflow Logo">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer class="footer">
+        <p class="copyright">Copyright (c) Robert W. Blevins</p>
+    </footer>
 </body>
 </html>

@@ -95,7 +95,6 @@ span.nav-menu {
 /* Change the color of links on hover */
 .topnav a:hover {
     background-color: #4aaaa5;
-    /*color: white;*/
 }
 
 /* pull nav menu items right */
@@ -286,7 +285,7 @@ body {
 .site-footer {
     background-color: #666;
     border-top: 4px solid #4aaaa5;
-    height: 60px;
+    height: 10%;
     line-height: 2.0;
 }
 
